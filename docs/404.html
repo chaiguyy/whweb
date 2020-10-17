@@ -5,10 +5,17 @@ permalink: /404.html
 ---
 <header>
 	<div class="container">
-		<h1 class="editable">Page Not found</h1>
-		<p class="editable">You've lost your way just like the millions of sheep without a voice</p>
-		<div class="button">
-			<a href="/">Return home</a>
+		<div class="column">
+			<div>
+				<h1 class="editable" style="color:#333;">Page Not Found</h1>
+				<p class="editable">Sorry, we weren't able to find the page you requested.</p>
+				<div class="button">
+					<a href="{{ site.baseurl }}/">Return home</a>
+				</div>
+			</div>
+		</div>
+		<div class="column">
+			<img src="{{ site.baseurl }}/images/giraffe.jpg" alt="Giraffe" style="width: 400px;">
 		</div>
 	</div>
 </header>

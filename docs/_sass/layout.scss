@@ -48,12 +48,17 @@ header {
 }
 
 .navbar a {
-	float: left;
-	display: block;
+	display: inline-block;
 	color: #f2f2f2;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+	height: 55px;
 }
 
 .navbar a:hover {
